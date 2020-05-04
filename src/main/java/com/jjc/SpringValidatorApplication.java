@@ -5,8 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 import org.springframework.validation.beanvalidation.MethodValidationPostProcessor;
 
-import com.jjc.config.ValidatorConfig;
-
 @SpringBootApplication
 @Import({MethodValidationPostProcessor.class})
 public class SpringValidatorApplication {
